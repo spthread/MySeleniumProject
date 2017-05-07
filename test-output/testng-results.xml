@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="324" started-at="2017-03-24T04:19:58Z" finished-at="2017-03-24T04:19:58Z">
+    <groups>
+      <group name="G1">
+        <method signature="GroupingDemo.groupDemo1()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo1" class="GroupingDemo"/>
+        <method signature="GroupingDemo.groupDemo3()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo3" class="GroupingDemo"/>
+      </group> <!-- G1 -->
+      <group name="G2">
+        <method signature="GroupingDemo.groupDemo2()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo2" class="GroupingDemo"/>
+        <method signature="GroupingDemo.groupDemo4()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo4" class="GroupingDemo"/>
+      </group> <!-- G2 -->
+    </groups>
+    <test name="Default test" duration-ms="324" started-at="2017-03-24T04:19:58Z" finished-at="2017-03-24T04:19:58Z">
+      <class name="GroupingDemo">
+        <test-method status="PASS" signature="groupDemo1()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo1" duration-ms="38" started-at="2017-03-24T09:49:58Z" finished-at="2017-03-24T09:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupDemo1 -->
+        <test-method status="PASS" signature="groupDemo2()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo2" duration-ms="4" started-at="2017-03-24T09:49:58Z" finished-at="2017-03-24T09:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupDemo2 -->
+        <test-method status="PASS" signature="groupDemo3()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo3" duration-ms="23" started-at="2017-03-24T09:49:58Z" finished-at="2017-03-24T09:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupDemo3 -->
+        <test-method status="PASS" signature="groupDemo4()[pri:0, instance:GroupingDemo@18ad742]" name="groupDemo4" duration-ms="4" started-at="2017-03-24T09:49:58Z" finished-at="2017-03-24T09:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupDemo4 -->
+      </class> <!-- GroupingDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
