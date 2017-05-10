@@ -9,7 +9,7 @@ public class Checkng {
 	 */
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-WebDriver driver=new FirefoxDriver();
+FirefoxDriver driver=new FirefoxDriver();
 
 driver.get("https://www.irctc.co.in/eticketing/loginHome.jsf");
 	}
